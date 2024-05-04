@@ -1,0 +1,270 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.body {
+    display: grid;
+    grid-template-columns: 19fr 58fr 23fr;
+}
+
+article {
+    background-color: aliceblue;
+}
+
+/* header */
+
+header {
+    background-color: #006699;
+    display: grid;
+    height: 55px;
+    grid-template-columns: 25fr 50fr repeat(4, 4fr);
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+}
+
+header form {
+    display: grid;
+    grid-template-columns: 45fr 5fr 6fr 6fr 15fr;
+    align-items: center;
+}
+
+
+header form input {
+    border-radius: 0.667vw;
+    padding-left: 2vw;
+    background-color: white;
+    border: 0;
+    outline: none;
+    height: 30px;
+}
+
+header form .icon_bus {
+    height: 18.25px;
+    position: relative;
+    left: -25px;
+}
+
+header a img {
+    width: 35px;
+    margin: max(2px, 5px);
+}
+
+.social_media_logo:hover {
+    width: 35px;
+    transition: 0.2s ease;
+}
+
+/*Nav*/
+nav {
+    height: 112%;
+    background-color: #006699;
+    position: relative;
+    top: -60px;
+    z-index: 0;
+}
+
+nav div {
+    background-color: #1f1f1f;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav img {
+    width: 10vw;
+    border-radius: 10vw;
+    padding: 1vw;
+}
+
+nav div h1 {
+    align-content: center;
+    color: white;
+    padding: 1.333vw 1vh 1.333vw 0;
+    font-size: clamp(0.213vw, 2vw, 6.4vw);
+}
+
+nav ul {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    position: sticky;
+    top: 12vw;
+    padding: 0 0 10px 0;
+    z-index: 0;
+}
+
+nav ul li {
+    list-style: none;
+    
+}
+
+nav ul a {
+    color: white;
+    background-color: #1f1f1f;
+    font-size: clamp(10px, 15px, 20px);
+    margin: 30px;
+    padding: 1vw;
+    border-radius: 4vw;
+    text-align: center;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+nav li:hover {
+    background-color: rgb(143, 138, 138);
+    transition: 0.5s ease;
+}
+
+/*aside*/
+
+aside {
+    height: 100%;
+    background-color: rgb(143, 138, 138);
+
+}
+
+aside div {
+    padding: 10px 25px;
+    text-align: center;
+}
+
+aside div h1 {
+    color: white;
+    font-size: clamp(15px, 30px, 30px);
+    padding: 10px 0 25px 0;
+    margin: 0px 0px 10px 0;
+    align-self: center;
+}
+
+aside div p {
+    background-color: white;
+    color: #006699;
+    border-radius: 0.667vw;
+    padding: 15px;
+    text-align: justify;
+    width: 100%;
+    height: fit-content;
+    margin-top: 10px;
+    box-shadow: 1vw -1vw #006699;
+}
+
+aside div p:hover {
+    background-color: #006699;
+    color: white;
+    box-shadow: 1.333vw -1.333vw white;
+    transition: 0.5s ease;
+}
+
+/*footer*/
+
+footer {
+    display: grid;
+    grid-template-columns: 3fr 3fr 4fr;
+    background-color: rgba(26, 26, 26, 1);
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+footer img {
+    width: max(30px, 45px);
+}
+
+footer div .texto {
+    color: #ffffff;
+    font-size: clamp(0.7vw, 1.2vw, 1.7vw);
+}
+
+.ubicanos p iframe {
+    padding: 1.333vw;
+    width: 25vw;
+    height: 15vw;
+}
+
+.footer-tittle {
+    font-size: clamp(1vw, 1.5vw, 2vw);
+    color: #ffffff;
+    text-align: center;
+    margin: 2vw;
+}
+
+.contacto {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.contacto p {
+    text-align: center;
+    color: #ffffff;
+}
+
+.contacto p a {
+    color: #ffffff;
+}
+
+.contacto p a:hover {
+    color: #006699;
+}
+
+.contacto div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px;
+}
+
+.social_media p {
+    margin: 0 10px 10px 0px;
+}
+
+.social_media_logo-footer:hover {
+    width: 55px;
+    transition: 0.2s ease;
+}
+
+.more_info {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.more_info div {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr 4fr 2fr;
+    padding: 5%;
+    align-content: center;
+}
+
+.more_info div img {
+    height: 100px;
+    width: 100%;
+    margin: 0 10px 0 0;
+}
+
+.more_info a {
+    color: #ffffff;
+    text-align: center;
+}
+
+.more_info a:hover {
+    color: #006699;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    justify-content: center;
+}

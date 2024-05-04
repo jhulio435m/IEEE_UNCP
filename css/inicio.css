@@ -1,0 +1,41 @@
+/*slider*/
+
+
+/*noticias*/
+
+.content-tittle {
+    font-size: 30px;
+}
+
+.noticias {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+
+.noticias {
+    margin: auto;
+    display: block;
+}
+
+.div-noticias {
+    border: solid black;
+    height: 300px;
+    width: 500px;
+    background-color: rgb(190, 193, 192);
+    margin: auto;
+    display: block;
+
+}
+
+/* Actividades */
+.actividades {
+    display: grid;
+    padding: 10px;
+
+}
+
+.activity {
+    background-color: black;
+    border: 10px #006699;
+    width: 60px;
+}

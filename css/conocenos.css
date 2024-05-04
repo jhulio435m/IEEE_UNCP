@@ -1,0 +1,86 @@
+nav {
+    height: 106%;
+}
+
+article {
+    padding: 30px;
+}
+
+article .v_m {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+    max-width: 1200px;
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
+.v_m div {
+    flex-basis: 300px;
+    max-width: 550px;
+    flex-grow: 1;
+}
+
+.v_m div h1 {
+    font-size: clamp(20px, 30px, 40px);
+    color: #006699;
+}
+
+.v_m div p {
+    text-align: justify;
+    background-color: gray;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #006699;
+    overflow: hidden;
+}
+
+article .junta .title {
+    font-size: clamp(20px, 30px, 40px);
+    color: #006699;
+    padding: 0 0 0 40px;
+}
+
+.junta .miembros {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
+.junta .miembros .member {
+    flex-basis: 210px;
+    max-width: 220px;
+    flex-grow: 1;
+    background-color: rgb(255, 128, 0);
+}
+
+.member {
+    padding: 8px;
+}
+
+.member h1 {
+    margin: 5px 0;
+}
+
+.member p {
+    font-size: clamp(12px, 13px, 16px);
+    text-align: left;
+    margin: 8px 0 ;
+}
+
+.member img {
+    width: 100px;
+    border-radius: 15px;
+}
