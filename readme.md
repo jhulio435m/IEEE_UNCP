@@ -41,3 +41,4 @@ dentro de esa carpeta agregas esto
 ///////////////////////////////////////////
 
 #agregue el index al PES
+#cree el css del aula virtual, agregue el index a aula virtual

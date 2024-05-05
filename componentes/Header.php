@@ -50,15 +50,21 @@ if ($tipo == 7) {
         <link href="../css/admin.css" rel="stylesheet" type="text/css"/>
         ';
 }
+if ($tipo == 8) {
+    echo '
+        <title>Contáctenos</title>
+        <link href="../css/aula_v.css" rel="stylesheet" type="text/css"/>
+        ';
+}
 ?>
 
 <body>
-    <header>
+    <header class="pc">
         <span></span>
         <form action="" method="post" target="_blank">
             <input type="search" name="buscador" placeholder="¿Qué desea hacer?">
             <img class="icon_bus" src="../img/busqueda.png" alt="buscador">
-            <a href="#"><img class="user_interfaz" src="../img/videollamada.png" alt="logo_clases"></a>
+            <a href="../aulav/index.php"><img class="user_interfaz" src="../img/videollamada.png" alt="logo_clases"></a>
             <a href="../login/index.php"><img class="user_interfaz" src="../img/usuario.png" alt="logo_user"></a>
         </form>
         <a href="#"><img class="social_media_logo" src="../img/facebook.png" alt="logo_facebook"></a>
@@ -66,3 +72,6 @@ if ($tipo == 7) {
         <a href="#"><img class="social_media_logo" src="../img/instagram.png" alt="logo_instagram"></a>
         <a href="#"><img class="social_media_logo" src="../img/whatsapp.png" alt="logo_whatsapp"></a>
     </header>
+    <div class="av_pc">
+
+    </div>
