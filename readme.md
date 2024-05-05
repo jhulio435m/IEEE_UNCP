@@ -37,3 +37,7 @@ dentro de esa carpeta agregas esto
 <?php
     include("../componentes/Footer.php")
 ?>
+
+///////////////////////////////////////////
+
+#agregue el index al PES
