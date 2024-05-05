@@ -30,7 +30,7 @@ header {
     align-items: center;
     position: sticky;
     top: 0;
-    z-index: 0;
+    z-index: 1;
 }
 
 header form {
@@ -71,7 +71,7 @@ nav {
     background-color: #006699;
     position: relative;
     top: -60px;
-    z-index: 0;
+    z-index: 1;
 }
 
 nav div {
@@ -81,7 +81,7 @@ nav div {
     align-items: center;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 nav img {

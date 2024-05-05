@@ -1,5 +1,5 @@
 <?php
-    $tipo="7";
+    $tipo="6";
     include("../componentes/Header.php");
 ?>
 
@@ -10,7 +10,8 @@
     ?>
     </div>
     <article>
-        escribe cualquier wbda aqui
+        <form action="get">
+        </form>
     </article>
     <div>
     <?php

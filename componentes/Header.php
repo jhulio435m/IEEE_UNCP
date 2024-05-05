@@ -38,6 +38,18 @@ if ($tipo == 5) {
         <link href="../css/contactenos.css" rel="stylesheet" type="text/css"/>
         ';
 }
+if ($tipo == 6) {
+    echo '
+        <title>Contáctenos</title>
+        <link href="../css/login.css" rel="stylesheet" type="text/css"/>
+        ';
+}
+if ($tipo == 7) {
+    echo '
+        <title>Contáctenos</title>
+        <link href="../css/admin.css" rel="stylesheet" type="text/css"/>
+        ';
+}
 ?>
 
 <body>
@@ -47,7 +59,7 @@ if ($tipo == 5) {
             <input type="search" name="buscador" placeholder="¿Qué desea hacer?">
             <img class="icon_bus" src="../img/busqueda.png" alt="buscador">
             <a href="#"><img class="user_interfaz" src="../img/videollamada.png" alt="logo_clases"></a>
-            <a href="#"><img class="user_interfaz" src="../img/usuario.png" alt="logo_user"></a>
+            <a href="../login/index.php"><img class="user_interfaz" src="../img/usuario.png" alt="logo_user"></a>
         </form>
         <a href="#"><img class="social_media_logo" src="../img/facebook.png" alt="logo_facebook"></a>
         <a href="#"><img class="social_media_logo" src="../img/linkendin.png" alt="logo_linkedin"></a>
