@@ -1,5 +1,3 @@
-
-
 section {
 	display: grid;
 	place-items: center;
@@ -11,6 +9,7 @@ section {
 	width: 80%;
 	border: 1px solid #006699 ;
 }
+
 .myslide, .myslide_1{
 	height: 28vw;
 	display: none;
@@ -28,12 +27,15 @@ section {
 	transition: 0.1s;
 	user-select: none;
 }
+
 .prev:hover, .next:hover{
 	color: #006699; /* blue */
 }
+
 .next{
 	right: 0;
 }
+
 .dotsbox{
 	position: absolute;
 	left: 50%;
@@ -41,6 +43,7 @@ section {
 	bottom: 20px;
 	cursor: pointer;
 }
+
 .dot, .dot_1{
 	display: inline-block;
 	width: 15px;
@@ -50,15 +53,11 @@ section {
 	margin: 0 10px;
 	cursor: pointer;
 }
-/* /2 */
 
-/* javascript */
 .active, .dot:hover, .dot_1:hover{
-	border-color: #006699; /* blue */
+	border-color: #006699;
 }
-/* /javascript */
 
-/* muslide add fade */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -75,25 +74,17 @@ section {
   from {opacity: 0.8}
   to {opacity: 1}
 }
-/* /muslide add fade */
-
-/* 3 */
-
 
 @-webkit-keyframes posi {
   from {left: 25%;}
   to {left: 15%;}
 }
 
-
 @keyframes posi {
   from {left: 25%;}
   to {left: 15%;}
 }
 
-
-
-/* 4 */
 .myslide img, .myslide_1 img{
 	transform: scale(1.5, 1.5);
 	-webkit-animation-name: zoomin;
@@ -101,36 +92,29 @@ section {
   	animation-name: zoomin;
   	animation-duration: 40s;
 }
+
 @-webkit-keyframes zoomin {
   from {transform: scale(1, 1);}
   to {transform: scale(1.5, 1.5);}
 }
 
-
 @keyframes zoomin {
   from {transform: scale(1, 1);}
   to {transform: scale(1.5, 1.5);}
 }
-/* /4 */
 
-
-
-/* 5 */
 @media screen and (max-width: 600px){
 	.myslide, .myslide_1{
 		height: 500px;
 	}
 	
-
 	@-webkit-keyframes posi2 {
 	  from {top: 35%;}
 	  to {top: 50%;}
 	}
 
-
 	@keyframes posi2 {
 	  from {top: 35%;}
 	  to {top: 50%;}
 	}
-
 }

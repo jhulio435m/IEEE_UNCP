@@ -3,7 +3,9 @@
 #NO TOCAR LA CARPETA COMPONENTES NI SU CONTENIDO
 
 
-#NO TOCAR EL ARCHIVO de la carpeta css "estilo.css"
+#NO TOCAR EL ARCHIVO DE LA CARPETA css "estilo.css"
+
+#NO TOCAR EL ARCHIVO DE LA CARPETA js "slider_1.js"
 
 lo demás se puede modificar
 
