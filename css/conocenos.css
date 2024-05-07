@@ -60,10 +60,12 @@ article .junta .title {
 }
 
 .junta .miembros .member {
-    flex-basis: 210px;
-    max-width: 220px;
+    flex-basis: 215px;
+    max-width: 225px;
     flex-grow: 1;
-    background-color: rgb(255, 128, 0);
+    background-color: white;
+    border: 1px solid #006699;
+    border-radius: 10px;
 }
 
 .member {
