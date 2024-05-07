@@ -44,7 +44,7 @@ include ("../componentes/Header.php");
             </div>
         </section>
         <section>
-            <h1>Noticias</h1>
+            <h1 class="tittle" >Noticias</h1>
             <div class="slider">
                 <div class="myslide_1 fade">
                     <img src="../img/1.jpg" style="width: 100%; height: 100%;">
@@ -78,24 +78,35 @@ include ("../componentes/Header.php");
             </div>
         </section>
         <section>
-            <h1>Actividades</h1>
-            <div>
-                <img src="../img/taipe.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam repudiandae dignissimos aut hic libero. Consequuntur ipsum aliquam incidunt voluptatem non consectetur quisquam natus ipsa error eius est, dolorum, necessitatibus dolore?
-                <p></p>
-                </p>
-            </div>
-            <div>
-                <img src="../img/taipe.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis ipsa libero illum amet unde, ut sunt veniam corporis tempore incidunt, expedita dolore! Suscipit assumenda, ratione natus aut magnam odit pariatur.
-                <p></p>
-                </p>
-            </div>
-            <div>
-                <img src="../img/taipe.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vel, minus ipsam non autem voluptas, tenetur facilis quas totam est eveniet, dicta culpa temporibus? Aliquid recusandae labore esse tenetur dignissimos.
-                <p></p>
-                </p>
+            <h1 class="tittle" >Actividades</h1>
+            <div class="activities">
+                <div class="a_1">
+                    <img class="img_actividad" src="../img/taipe.jpg" alt="">
+                    <h1>Lorem ipsum dolor </h1>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam repudiandae dignissimos aut hic libero. Consequuntur ipsum aliquam incidunt voluptatem non consectetur quisquam natus ipsa error eius est, dolorum, necessitatibus dolore?</p>
+                    <div class="time" >
+                        <img src="../img/time.png" alt="time">
+                        <p>1 de marzo del 2023</p>
+                    </div>
+                </div>
+                <div class="a_1">
+                    <img class="img_actividad" src="../img/taipe.jpg" alt="">
+                    <h1>Lorem ipsum dolor </h1>
+                    <p class="text" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis ipsa libero illum amet unde, ut sunt veniam corporis tempore incidunt, expedita dolore! Suscipit assumenda, ratione natus aut magnam odit pariatur.</p>
+                    <div class="time" >
+                        <img src="../img/time.png" alt="time">
+                        <p>1 de marzo del 2023</p>
+                    </div>
+                </div>
+                <div class="a_1">
+                    <img class="img_actividad" src="../img/taipe.jpg" alt="">
+                    <h1>Lorem ipsum dolor </h1>
+                    <p class="text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vel, minus ipsam non autem voluptas, tenetur facilis quas totam est eveniet, dicta culpa temporibus? Aliquid recusandae labore esse tenetur dignissimos.</p>
+                    <div class="time">
+                        <img src="../img/time.png" alt="time">
+                        <p>1 de marzo del 2023</p>
+                    </div>
+                </div>
             </div>
         </section>
 

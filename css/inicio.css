@@ -4,16 +4,26 @@ section {
 	margin: 35px 0 0 0;
 }
 
-.slider{
+aside {
+	height: 102%;
+}
+
+article {
+	height: 102%;
+}
+
+.slider {
 	position: relative;
-	width: 80%;
+	width: 70%;
 	border: 1px solid #006699 ;
+	border-radius: 15px;
 }
 
 .myslide, .myslide_1{
-	height: 28vw;
+	height: 26vw;
 	display: none;
 	overflow: hidden;
+	border-radius: 15px;
 }
 
 .prev, .next{
@@ -118,3 +128,77 @@ section {
 	  to {top: 50%;}
 	}
 }
+
+.activities {
+	text-align: center;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.5em;
+    flex-wrap: wrap;
+	margin: 0 0 10px 0;
+}
+
+.activities .a_1 {
+	flex-basis: 210px;
+    max-width: 220px;
+    flex-grow: 1;
+    background-color: white;
+	border: 1.5px solid #006699;
+}
+
+.activities div .img_actividad {
+	width: 100%;
+	margin: 5px 0;
+	border-bottom: 1.5px solid #006699;
+}
+
+.activities div h1 {
+	color: #006699;
+	font-size: 16px;
+	text-align: left;
+	padding: 0 0 0 10px;
+}
+
+.activities div .text {
+	text-align: justify;
+	font-size: 15px;
+	padding: 5px 10px 0 10px;
+	margin: 0;
+	height: 160px;
+	color: #006699;
+}
+
+.time {
+	display: flex;
+	height: max-content;
+	margin: 10px auto;
+	position: sticky;
+	bottom: 0;
+}
+
+.time img {
+	margin: 0 10px;
+	width: 15px;
+	display: flex;
+	flex: 1;
+}
+
+.time p {
+	font-size: 10px;
+	color: gray;
+	display: flex;
+	flex: 6;
+	align-content: center;
+	align-items: center;
+	text-align: left;
+}
+
+.tittle {
+	color: #006699;
+	margin: 15px;
+	font-size: 25px;
+}
+
+

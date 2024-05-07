@@ -61,7 +61,7 @@ if ($tipo == 7) {
             <a href="#"><img class="user_interfaz" src="../img/videollamada.png" alt="logo_clases"></a>
             <a href="../login/index.php"><img class="user_interfaz" src="../img/usuario.png" alt="logo_user"></a>
         </form>
-        <a href="#"><img class="social_media_logo" src="../img/facebook.png" alt="logo_facebook"></a>
+        <a href="htttps://www.facebook.com/"><img class="social_media_logo" src="../img/facebook.png" alt="logo_facebook"></a>
         <a href="#"><img class="social_media_logo" src="../img/linkendin.png" alt="logo_linkedin"></a>
         <a href="#"><img class="social_media_logo" src="../img/instagram.png" alt="logo_instagram"></a>
         <a href="#"><img class="social_media_logo" src="../img/whatsapp.png" alt="logo_whatsapp"></a>

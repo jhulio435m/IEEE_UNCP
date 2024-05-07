@@ -60,8 +60,8 @@ header a img {
     margin: max(2px, 5px);
 }
 
-.social_media_logo:hover {
-    width: 35px;
+header a .social_media_logo:hover {
+    width: 40px;
     transition: 0.2s ease;
 }
 
